@@ -17,6 +17,9 @@
             font-family: BlinkMacSystemFont, 'Malgun Gothic', '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
             color: #000;
             font-size: 15px;
+            text-align: center;
+            margin: 0;
+            padding: 0;
         }
 
         @media print {
@@ -28,11 +31,7 @@
             }
         }
 
-        body {
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
+
 
         img {
             vertical-align: top;
@@ -66,6 +65,7 @@
             padding-left: 8px;
             padding-right: 8px;
             margin-top: 10px;
+            /* text-align: left; */
         }
 
         h2 {
@@ -129,11 +129,21 @@
 
         .whatidid_category .task ul {
             padding-left: 20px;
+
+        }
+
+        .task {
+            text-align: left;
         }
 
         .task li {
+
             list-style-position: outside;
             list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAkUExURWRkZGJiYkdwTGRkZGNjY2NjY2NjY2VlZXd3d2NjY2NjY2RkZF9tpwQAAAAMdFJOU4AhAL/fEE9oAZ/vQEH/Yk0AAABqSURBVAjXY1BSCmNIVVJiUGpfzGDCBKQnCykpWioxKBgpKSk1FzGECCkpKSouZUgGcksizBgYlDapOyoxMDCoOpQIAelkJRFHJQ0zhighRaBGVwZ1C5A+JqA5EkqNQHOUFJwZrIqANMQeAHVoE+3U+XqWAAAAAElFTkSuQmCC');
+        }
+
+        .language {
+            text-align: left;
         }
 
         .language ul {
@@ -216,9 +226,9 @@
                     <tbody>
                         <tr>
                             <th>지원부서</th>
-                            <td>{{$COMP}}</td>
+                            <td>FE 를 비롯한 웹 개발</td>
                             <th>희망연봉</th>
-                            <td>{{$MONEY}} (협의가능)</td>
+                            <td>1억2000 (협의가능)</td>
                         </tr>
                     </tbody>
                 </table>
@@ -1294,7 +1304,7 @@
 
             <section class="footer">
                 <p>위의 모든 내용은 사실과 다름이 없음을 확인 합니다.</p>
-                <p>작성일 : {{$DATE}} &nbsp;&nbsp;&nbsp; 작성자 : 유종우</p>
+                <p> 작성자 : 유종우</p>
             </section>
         </div>
     </div>
