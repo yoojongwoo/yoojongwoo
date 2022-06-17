@@ -4,7 +4,7 @@ const PORT = 8001
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs')
 
-app.get('/resume', (req, res) => {
+app.get('/resume/', (req, res) => {
     res.render('resume')
   })
 
